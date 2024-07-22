@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 st.image(r'573326-innomatics_research_labs_logo.png')
-model = pickle.load(open(r"C:\Users\Ashfaq Khan\283-Batch\Machine Learning Nagaraju sir\estimate_arrival_time.pkl","rb"))
+model = pickle.load(open(r"estimate_arrival_time.pkl","rb"))
 
 start_lat = st.number_input("Enter the start latitude:",)
 start_lang = st.number_input("Enter the start longitude:")
